@@ -1,14 +1,37 @@
-# Welcome to your CDK TypeScript project
+## Assignment - Cloud App Development.
 
-This is a blank project for CDK development with TypeScript.
+__Name:__ ....your name .....
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+### Links.
+__Demo:__ A link to your YouTube video demonstration.]
 
-## Useful commands
+### Screenshots.
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+[A screenshot of the App Web API from the management console, e.g.
+
+![][api]
+
+The Auth API is not required as its code was provided in the labs.
+
+]
+
+[A screenshot of your seeded table from DynamoDB, e.g.
+
+![][db]
+]
+
+[A screenshot from CloudWatch logs showing an example of User Activity logging, e.g.
+
+jbloggs /awards?movie=1234&awardBody=Academy
+]
+
+### Design features (if required).
+
+[Briefly explain any design features of the App API in terms of custom L2 constructs, multi-stack, and lambda layers.]
+
+###  Extra (If relevant).
+
+[ State any other aspects of your solution that use CDK/serverless features not covered in the lectures.]
+
+[api]: ./images/api.png
+[db]: ./images/db.png

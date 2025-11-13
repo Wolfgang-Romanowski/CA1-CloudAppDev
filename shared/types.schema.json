@@ -1,0 +1,29 @@
+{
+  "definitions": {
+    "SignUpBody": {
+      "type": "object",
+      "properties": {
+        "username": { "type": "string" },
+        "password": { "type": "string" },
+        "email": { "type": "string", "format": "email" }
+      },
+      "required": ["username", "password", "email"]
+    },
+    "SignInBody": {
+      "type": "object",
+      "properties": {
+        "username": { "type": "string" },
+        "password": { "type": "string" }
+      },
+      "required": ["username", "password"]
+    },
+    "ConfirmSignUpBody": {
+      "type": "object",
+      "properties": {
+        "username": { "type": "string" },
+        "code": { "type": "string" }
+      },
+      "required": ["username", "code"]
+    }
+  }
+}
